@@ -5,7 +5,7 @@ This is particulary usefull when using the High Definition Render Pipeline, in o
 
 ## Install
 
-![PackMan](.//Documentation~/Images/PackMan.png)
+![PackMan](./Documentation~/Images/PackMan.png)
 
 - In the top right of the **Package Manager** window, click the + sign, and select *Add Package from GIT URL...*
 - Copy the package repository link https://github.com/RemyUnity/CRT-Texture-Packer.git and click *add*.
@@ -14,11 +14,11 @@ This is particulary usefull when using the High Definition Render Pipeline, in o
 
 Start by creating a new material, and assign it the *Remy Unity/CRT Texture Packer* shader.
 
-![Material Setup](.//Documentation~/Images/Material Setup.png)
+![Material Setup](./Documentation~/Images/Material-Setup.png)
 
 Then, create a new *Custom Render Texture* asset, set the texture settings at your needs, and assign the previously created material in the *Material* property
 
-![CRT Setup](./Documentation~/Images/CRT Setup.png)
+![CRT Setup](./Documentation~/Images/CRT-Setup.png)
 
 You can now start to plug you source textures.
 
@@ -38,7 +38,7 @@ In addition to this, there is a *Gamma Correction* property to alter the output 
 
 Here is an example setup to create an *HDRP Mask Map* :
 
-![Mask Map](./Documentation~/Images/Mask Map.png)
+![Mask Map](./Documentation~/Images/Mask-Map.png)
 
 The red channel remap outputs were set to minimum and maximum 0 to fill the **red** channel with 0 value. In the *Mask Map*, this is the *Metallic* information.
 Similarly, the **blue** channel is filled with white, this is the *Detail Mask*.
@@ -49,7 +49,7 @@ The **alpha** channel has a *Roughness* texture plugged in. But the *HDRP Mask M
 
 And an other example with a *HDRP Detail Map* :
 
-![Detail Map](./Documentation~/Images/Detail Map.png)
+![Detail Map](./Documentation~/Images/Detail-Map.png)
 
 Here, a *Normal Map* is plugged to copy the *Normal* **green** value to *Detail* **green** (*Detail Normal Y*), and *Normal* **red** value to *Detail* **alpha** (*Detail Normal X*).
 An *Albedo* texture is outputting a it's remapped lightness to **red** (*Detail Albedo*), and a *Roughness* texture is remapped and inverted in **blue** (*Detail Smoothness*).
