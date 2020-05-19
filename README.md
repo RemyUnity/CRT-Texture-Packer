@@ -3,7 +3,12 @@ The Custom Render Texture (CRT) Texture packer is a tool to help you pack multip
 
 This is particulary usefull when using the High Definition Render Pipeline, in order to pack downloaded textures to use as a Mask Map or a Detail Map.
 
+## Install
 
+![PackMan](.//Documentation~/Images/PackMan.png)
+
+- In the top right of the **Package Manager** window, click the + sign, and select *Add Package from GIT URL...*
+- Copy the package repository link https://github.com/RemyUnity/CRT-Texture-Packer.git and click *add*.
 
 ## How to use
 
